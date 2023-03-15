@@ -11,7 +11,8 @@
 ![flames page](https://user-images.githubusercontent.com/117984168/225402598-f392e175-5fab-4a27-a32f-8cb870eba5df.jpeg)
 
 # Flow Chart
-[flow chart.docx](https://github.com/Nasreen31/Flamesgame/files/10984177/flow.chart.docx)
+
+![flowchart1](https://user-images.githubusercontent.com/117984168/225433416-a7f8d3c1-f69a-4fa9-9fac-1a0a0aa38766.jpeg)
 
 
 
@@ -54,12 +55,19 @@ The flames calculator is based on quite a simple algorithm in which FLAMES stand
 flames = ["F", "L", "A", "M", "E", "S"]
 
 while len(flames) > 1:
+
 formula = d % len(flames) - 1
+
 if formula >= 0:
+
 before = flames[formula + 1:]
+
 after = flames[:formula]
+
 flames = before + after
+
 else:
+
 flames = flames[:len(flames) - 1]
 
 
